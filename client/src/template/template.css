@@ -1,0 +1,59 @@
+#filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#filters > * {
+  margin: 5px;
+  flex: 1;
+  min-width: 200px;
+  box-sizing: border-box;
+}
+
+.simplePagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 1200px) {
+  #filters {
+    display: flex;
+    position: center;
+    margin-top: 15%;
+  }
+}
+
+@media (max-width: 770px) {
+  #filters {
+    margin-top: 15%;
+  }
+  #filters > * {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  #filters {
+    margin-top: 20%;
+  }
+  #filters > * {
+    min-width: 100%;
+  }
+}

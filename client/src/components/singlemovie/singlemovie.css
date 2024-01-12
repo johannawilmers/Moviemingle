@@ -1,0 +1,125 @@
+.singleMovie {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  margin: 0 22%;
+}
+
+#returnButton {
+  font-size: x-large;
+  color: white;
+}
+#returnButton .MuiSvgIcon-root {
+  margin-right: 10px;
+}
+
+#returnButton:hover {
+  color: #d62b70;
+}
+
+.thick-line {
+  margin-bottom: 3%;
+  height: 2px;
+  background-color: white;
+}
+
+.return-to-movies {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.singleMovie-image {
+  width: 100%;
+}
+
+.section-header {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.favorite-button {
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: #d62b70;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.favorite-button svg {
+  fill: white;
+  width: 30px;
+  height: 30px;
+}
+
+.card-overview p {
+  width: 100%;
+  font-size: 1, 5rem;
+  line-height: 1.75rem;
+}
+
+.information {
+  justify-content: space-between;
+}
+
+.card-overview {
+  line-height: 1.75rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.genres {
+  margin-bottom: 5%;
+}
+
+.genres,
+.favorite-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 1250px) {
+  .return-to-movies {
+    margin-top: 5%;
+  }
+  .genres {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .return-to-movies {
+    margin-top: 10%;
+  }
+  #returnButton {
+    font-size: medium;
+  }
+  .singleMovie {
+    margin: 0 10%;
+  }
+}

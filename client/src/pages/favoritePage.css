@@ -1,0 +1,14 @@
+.listViewFavorite {
+  margin-top: 10%;
+}
+
+@media (max-width: 900px) {
+  .listViewFavorite {
+    margin-top: 15%;
+  }
+}
+@media (max-width: 600px) {
+  .listViewFavorite {
+    margin-top: 20%;
+  }
+}

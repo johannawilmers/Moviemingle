@@ -1,0 +1,63 @@
+.link image {
+  border-radius: 6px;
+  min-width: 100%;
+  transition: transform 0.3s;
+  padding-top: 2.5%;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 20px -5px rgba(217, 223, 226, 0.7);
+}
+.rating {
+  display: flex;
+}
+.movie-card {
+  border-radius: 6px;
+  width: 85%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutMovie {
+  display: block;
+}
+.movie-container {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.movie-container p {
+  font-size: 15px;
+  margin-top: 1%;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rating p {
+  margin: 0;
+}
+
+.link {
+  width: 100%;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.heartSection {
+  position: absolute;
+  bottom: 24%;
+  left: 65%;
+}

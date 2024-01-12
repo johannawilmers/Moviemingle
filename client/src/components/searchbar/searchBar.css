@@ -1,0 +1,7 @@
+#search-box-container {
+  display: flex;
+}
+
+#search-box-container button {
+  cursor: pointer;
+}
